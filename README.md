@@ -1,4 +1,4 @@
-# OSX-Dark-Mode-Switcher
+# Vim Dark Mode Switcher
 
 Change Vim background based on the macOS appearance (dark/light mode) introduced in 10.14 Mojave. 
 
@@ -10,7 +10,7 @@ It does nothing for Windows, macOS 10.13 or below, so your `.vimrc` should remai
 
 Place the following line in your `.vimrc`:
 ```vim script
-Plug 'L-TChen/OSX-Dark-Mode-Switcher'
+Plug 'L-TChen/vim-dark-mode-switcher'
 ```
 and run 
 ```vim script
@@ -33,7 +33,7 @@ call darkmode#switch()
 # Example
 
 The following is a minimal `.vimrc` if you use Vim-Plug. When Vim starts, it checks if it is running as a GUI (e.g. MacVim).
-If so, then change the colortheme to NeoSolarized Dark/Light if macOS is in dark/light mode.
+If so, then change the `colortheme` to NeoSolarized Dark/Light if macOS is in dark/light mode.
 
 ```vim script
 call plug#begin()
