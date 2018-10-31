@@ -45,9 +45,8 @@ call plug#end()
 
 if has('gui_running')
   call darkmode#switch()
+  colorscheme NeoSolarized
 endif
-
-colorscheme NeoSolarized
 ```
 
 # To-do
